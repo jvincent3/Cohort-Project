@@ -1,0 +1,280 @@
+body {
+	margin:0;
+	 font-family: Verdana, Geneva, sans-serif;
+}
+.margin1 {
+	margin-left:auto;
+	margin-right:auto;
+	max-width:1025;
+
+
+/* BEGINNING OF NAVBAR */
+}
+.header1 {
+	display:block;
+	background-color:#0070ba;
+	background-image: linear-gradient(100deg,#0070ba,#1546a0);
+	height:72px;
+	position:fixed;
+	top:0;
+	width:100%;
+}
+.header2 {
+	display:table;
+	
+	margin-left:auto;
+	margin-right:auto;
+	height:54px;
+	max-width:1025;
+
+}
+
+.header3 {
+	display:table-cell;
+	
+	height:30;
+	width:30;
+	padding:20px 12px 4px 0;
+	float:left;
+
+}
+.header3 img {
+	height:35px;
+	width:33px;
+	margin:0 0 3px 3px;
+}
+.header4 {
+	
+	display:table-cell;
+	
+	height:54px;
+	width:100%;
+}
+.header5 {
+	display:block;
+	
+	float:right;
+	height:54;
+	width:80;
+	
+}
+.header6 {
+	
+	display:block;
+	width:64px;
+	height:34px;
+	font-weight:bold;
+	font-size: .8125rem;
+	    line-height:2.5;
+	background-color:transparent;
+	border: 1px black solid;
+	text-align:center;
+	border-radius: 20px;
+	color:white;
+	border-color:white;
+	margin-top:20px;
+	
+/*END OF NAVBAR */
+
+}
+
+/* START OF HEADER */
+.background {
+	background-image:url(https://www.paypalobjects.com/web/res/eee/cd2eeb1f98f04a293851a58a332bb/images/landing-9ac13f.png);
+	max-width:100%;
+	height:413px;
+	background-position:20% 50%;
+	background-size:cover;
+}
+.block1 {
+	display:block;
+	height:311px;
+	width:398px;
+	background-color:transparent;
+	padding:38px;
+	color:white;
+}
+.block1 h1{
+
+	font-size:38px;
+	font-weight:normal;
+	margin-top:90px;
+
+}
+.block1 p{
+	font-size:14px;
+}
+.block1 a {
+	display:block;
+	margin-top:35px;
+	padding:11px;
+	background-color:white;
+	border-radius:20px;
+	font-size:11px;
+	font-weight:bold;
+	color:black;
+	text-align:center;
+	width:212px;
+}
+/* END OF HEADER */
+.block2{
+
+	padding:10px 8px;
+	height:50px;
+
+}
+.block2 ul{
+
+
+}
+.block2 ul li{
+	display:block;
+	float:left;
+	margin-right:30px;
+}
+.block2 li a{
+	color:#0070ba;
+	font-size:13px;
+	font-weight: bold;
+}
+.block3 {
+	display:block;
+	width:90%;
+	
+	display:table;
+	margin-bottom:60px;
+	margin-left:auto;
+	margin-right:auto;
+	border-top:1px #b7bcbf solid;
+}
+.block3 > div {
+	margin-top:60px;
+	display:inline-block;
+	float:left;
+	
+	width:50%;
+} 
+.block3 h2 {
+	font-weight:normal;
+	margin-right:80px;
+}
+.block3 p{
+	margin-right:80px;
+	font-size:14px;
+}
+/*.block3 img{
+	float:left;
+	width:100%;
+	border-radius:8px;
+	border:1px solid #eee;
+	}*/
+.block4{
+	display:block;
+	margin-bottom:60px;
+	border-top:1px #b7bcbf solid;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+
+
+
+}
+.block4 div h2{
+	text-align:center;
+}
+.block4 div div{
+	width:424px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.block4 div div > span{
+	 background-color: #f4f4f4;
+	 border-radius:5px;
+	display:block;
+	box-sizing:border-box;
+	height:53px;
+	width:100%;
+	padding: 6px 14px 7px 53px;
+	margin-bottom: 10px;
+}
+.block4 span span{
+	display:block;
+ 	background-color: #fff;
+	width:357px;
+	line-height:40px;
+	padding-left:10px;
+	border-radius:5px;
+}
+.gif{
+
+    background: gray url(https://www.paypalobjects.com/web/res/eee/cd2eeb1f98f04a293851a58a332bb/images/example-c263f6.png);
+    width: 100%;
+    padding-bottom: 77.9%;
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 8px;
+    border: 1px solid #eee;
+
+}
+.block5{
+	display:block;
+	width:90%;
+	display:table;
+	margin-bottom:60px;
+	margin-left:auto;
+	margin-right:auto;
+	border-top:1px #b7bcbf solid;
+}
+.block5 h2{
+	text-align:center;
+
+}
+.block5 > div{
+	width:100%;
+
+}
+.started{
+	display:table;
+	margin-bottom:60px;
+	
+}
+.started > div{
+	display:block;
+	
+	float:left;
+	width:33%;
+}
+.bullet{
+	display:inline-block;
+	border:1px black solid;
+	height:29px;
+	width:35px;
+	float:left;
+	text-align:center;
+	padding-top:6px;
+	margin-right:20px;
+	border-radius:100%;
+	font-weight:600;
+	vertical-align: top;
+
+}
+.bullettext{
+	display:inline-block;
+	
+	float:left;
+	width: calc(100% - 60px);
+
+}
+.block6{
+	display:block;
+	text-align:center;
+	background-color:#0070ba;
+	width:340px;
+	padding:15px 0;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:25px;
+	color:white;
+
+
+}
